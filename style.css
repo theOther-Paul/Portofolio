@@ -99,7 +99,7 @@ body {
 
 .wrapper .section .top_navbar .hamburger a {
     font-size: 28px;
-    color: #f4fbff;
+    color: #ccebfd;
 }
 
 .wrapper .section .top_navbar .hamburger a:hover {
@@ -108,12 +108,16 @@ body {
 
 .wrapper .section .container {
     margin: 30px;
-    background: #7ba1b7;
+    background: #323435;
     padding: 50px;
     line-height: 28px;
-    border: 5px solid;
-    border-color: #054468;
 
+}
+
+.container h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 body.active .wrapper .sidebar {
@@ -197,12 +201,24 @@ footer {
     color: aqua;
 }
 
-.footer-bottom {
-    background: #000;
-    width: 100vw;
-    padding: 20px;
-    padding-bottom: 40px;
-    text-align: right;
+.footer-bottom p {
+    float: left;
+    font-size: 14px;
+    word-spacing: 10px;
+    text-transform: capitalize;
+}
+
+.footer-bottom p a {
+    color: #44bae8;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: left;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
 }
 
 .footer-menu {
